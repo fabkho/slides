@@ -1,7 +1,12 @@
 {
-  "name": "slides",
+  "name": "slides-monorepo",
   "private": true,
   "scripts": {
-    "dev": "slidev"
+    "dev": "node scripts/dev.js"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.11",
+    "@slidev/theme-default": "^0.25.0",
+    "slidev-theme-geist": "^0.8.1"
   }
 }
