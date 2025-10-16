@@ -1,0 +1,7 @@
+{
+  "name": "slides",
+  "private": true,
+  "scripts": {
+    "dev": "slidev"
+  }
+}
